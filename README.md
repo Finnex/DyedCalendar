@@ -1,2 +1,2 @@
 # DyedCalendar
-A colorful calendar. Each month is highlighted in its averagely highest temperature.
+A colorful but basic calendar. Each month is highlighted in its averagely highest temperature.
