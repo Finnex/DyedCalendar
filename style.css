@@ -1,0 +1,36 @@
+body{
+    font-family: Arial;
+    background-color: #4D4D4D;
+}
+
+#month{
+    width: 250px;
+    height: 230px;
+    position: absolute;
+    border-radius: 50px;
+    top: 225px;
+    left: 225px;
+    padding-top: 20px;
+}
+
+#month-title{
+    text-align: center;
+    font-size: 25px;
+}
+
+.month-button{
+    font-size: 30px;;
+}
+
+.dynamic {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin:auto;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+.dynamic:hover{
+    color: white;
+}

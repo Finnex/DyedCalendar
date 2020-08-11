@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>My Dyed Calendar</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js" language="javascript" type="text/javascript"></script> 
+    </head>
+    <body>
+        <div id="month">
+            <div id="month-title"></div>
+            <table align="center" border=0>
+                <tr><th>Mo</th><th>Di</th><th>Mi</th><th>Do</th><th>Fr</th><th>Sa</th><th>So</th></tr>
+            </table>
+            <script>
+                createCircleOfMonths(12, 250, 300, 300, "dynamic");
+                
+                //Initial wird das heutige Datum angezeigt.
+                var date = new Date();
+                updateMonthDiv(date.getMonth()+1, date.getFullYear(), getBackgroundColor(date.getMonth()+1));
+            </script>
+        </div>
+    </body>
+</html>
